@@ -1,4 +1,4 @@
-# vue-offcanvas
+# 💃 vue-offcanvas
 
 > Showing off-canvas menu effects stylishly with Vue.js
 
@@ -24,3 +24,5 @@ npm run dist
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+Copyright © 2018 by [Irfan Maulana](https://github.com/mazipan/)
