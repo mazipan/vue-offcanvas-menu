@@ -4,6 +4,13 @@
 
 :rocket: Skeleton generated with Vue-CLI using template [vuejs-template-plugin](https://github.com/mazipan/vuejs-template-plugin)
 
+## From codrop awesome project
+
+- [Article](https://tympanus.net/codrops/2014/09/16/off-canvas-menu-effects/)
+- [Demo](http://tympanus.net/Development/OffCanvasMenuEffects/)
+- [Github](https://github.com/codrops/OffCanvasMenuEffects)
+- [Dribble shoot](https://dribbble.com/shots/1663008-Old-Designspiration-Menu-Concept) by Michael Martinho
+
 ## Build Setup
 
 ``` bash
