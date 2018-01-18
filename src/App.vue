@@ -29,8 +29,14 @@
 					<header class="codrops-header">
 						<h1>Off-Canvas Menu Effects <span>Showing (off-canvas) menus stylishly</span></h1>
 						<nav class="codrops-demos">
-							<a class="current-demo" @click="toggleOffCanvas">Elastic</a>
+							<a class="current-demo" @click="toggleOffCanvas">OPEN Off-Canvas</a>
 						</nav>
+            <div class="codrops-links">
+							<a href="http://tympanus.net/codrops/?p=20100"><span><i class="fa fa-link"></i> See Codrops Article</span></a>
+						</div>
+            <div class="codrops-links">
+							<a href="https://github.com/mazipan/vue-offcanvas-menu"><span><i class="fa fa-github"></i> See Github</span></a>
+						</div>
 					</header>
 
 				</div>
