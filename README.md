@@ -8,7 +8,7 @@
 
 [https://mazipan.github.io/vue-offcanvas-menu/](https://mazipan.github.io/vue-offcanvas-menu/)
 
-## From codrop awesome project
+## From awesome project by [codrops](https://github.com/codrops)
 
 - [Article](https://tympanus.net/codrops/2014/09/16/off-canvas-menu-effects/)
 - [Demo](http://tympanus.net/Development/OffCanvasMenuEffects/)
