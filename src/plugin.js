@@ -1,10 +1,23 @@
-import Component from './Component.vue'
+import VueOffCanvas from './VueOffCanvas.vue'
+import { VueOffCanvasEventBus } from './event-bus.js'
 
 const plugin = {
   install: Vue => {
-    Vue.component(Component.name, Component)
+    Vue.component(VueOffCanvas.name, VueOffCanvas)
+    Vue.prototype.$VueOffCanvas = {
+      open() {
+        VueOffCanvasEventBus.$emit('open')
+      },
+      close() {
+        VueOffCanvasEventBus.$emit('close')
+      },
+      toggle() {
+        VueOffCanvasEventBus.$emit('toggle')
+      }
+    }
   }
 }
 
-Component.install = plugin.install
-export default Component
+VueOffCanvas.install = plugin.install
+
+export default VueOffCanvas
